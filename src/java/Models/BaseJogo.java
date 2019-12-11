@@ -7,12 +7,14 @@ package Models;
 
 /**
  *
- * @author marco
+ * @author Aluno
  */
-public class Filme extends BaseJogo {
+public abstract class BaseJogo {
     
-    public Filme(){
-        this.titulos = new String[] {"Interestelar","Beleza Americana","Seven","Sinais"};
+    protected String[] titulos;
+    
+    protected String retornaInformacao(int posicao){
+        return titulos[posicao];
     }
     
 }

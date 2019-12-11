@@ -9,8 +9,12 @@ package Models;
  *
  * @author marco
  */
-public class Carros {
+public class Carros extends BaseJogo {
     
-    String[] titulos = {"Monza","Onix","Uno","Cruze"};
+    public Carros(){
+        this.titulos = new String[] {"Monza","Onix","Uno","Cruze"};
+    }
+    
+    
     
 }

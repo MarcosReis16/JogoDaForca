@@ -9,7 +9,10 @@ package Models;
  *
  * @author marco
  */
-public class Novela {
+public class Novela extends BaseJogo {
     
-    String[] titulos = {"Por Amor","Roque Santeiro","A Próxima Vítima","Laços de Familia"};
+    public Novela(){
+        this.titulos = new String[] {"Por Amor","Roque Santeiro","A Próxima Vítima","Laços de Familia"};
+    }
+    
 }
